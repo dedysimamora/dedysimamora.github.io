@@ -1,0 +1,106 @@
+html {
+  font-size: 16px;
+  
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+
+header {
+	  position: fixed;
+  	background-color: orange;
+  	width: 100%;
+  	z-index: 1;
+  	top:0;
+
+}
+
+.logo {
+
+  display: inline-block;
+
+
+}
+
+.logo img {
+
+  float:  left;
+  display: inline-block;
+  height: 15%;
+  width: 15%;
+  padding-top: 10px;
+  padding-right: 20px;
+  padding-bottom: 0px;
+  padding-left: 10px;
+}
+
+.logo h1 {
+  display: inline-block;
+  padding-bottom: 0px;
+  color: white;
+  font-weight: bold;
+  font-family: sans-serif;
+
+
+
+}
+
+nav {
+  float: right;
+  color: white;
+  
+  padding-top: 12px
+}
+
+nav li {
+  	color: white;
+  	font-family: sans-serif;
+  	font-weight: 600;
+  	font-size: 16px;
+  	display: inline-block;
+  	width: 80px;
+    
+
+
+}
+
+#texttengah {
+
+	padding-top: 180px;
+	padding-bottom: 180px;
+	text-align: center;
+	color: orange;
+	font-weight: bold;
+	background: url(kelas.jpg) no-repeat center center fixed; 
+	background-size: cover;
+
+}
+
+#texttengah:before {
+  position: absolute;
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+#texttengah * {
+  position: relative;
+}
+
+footer {
+	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+  	text-align: center;
+	background-color: orange;
+}
+
+
+
