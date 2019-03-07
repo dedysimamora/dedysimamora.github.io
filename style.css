@@ -10,12 +10,14 @@ body {
   margin: 0;
   padding: 0;
   background-color: rgb(255, 255, 255);
+  background: url(kelas.jpg) no-repeat center center fixed; 
+  background-size:cover;
+  background-repeat:no-repeat;
 }
 
 
 header {
 	  position: fixed;
-  	background-color: orange;
   	width: 100%;
   	z-index: 1;
   	top:0;
@@ -74,12 +76,9 @@ nav li {
 #texttengah {
 
 	padding-top: 180px;
-	padding-bottom: 200px;
 	text-align: center;
 	color: white;
 	font-weight: bold;
-	background: url(kelas.jpg) no-repeat center center fixed; 
-	background-size: cover;
 
 }
 
@@ -93,7 +92,6 @@ nav li {
   background-color: rgba(0, 0, 0, 0.5);
 
 }
-
 #texttengah p {
 
   font-weight: 10;
@@ -109,9 +107,11 @@ footer {
   	bottom: 0;
   	width: 100%;
   	text-align: center;
-    background-color: orange;
     font-size: 10px;
 }
 
 
+.bg-orange{
+	background:#fa980a
+}
 
