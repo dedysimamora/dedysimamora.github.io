@@ -1,58 +1,89 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title>Daring Fox</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Rupiah Converter</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style.css">
+    
 </head>
 <body>
-	<!--Header-->
-	<header class="bg-orange">
-
-		<div class="logo">
-
-			<img src="https://hacktiv8.com/img/fox.png__vzu2vhp2VRX%2Bewg7J0bPlaAa9e377ae39495073d0e66db163fc8d9b">
-			<h1>Daring Fox</h1>
-
-		</div>
-
-		<nav>
-			<ul>
-				<li><a href="mentor.html">Mentor</a></li>
-				<li><a href="student.html">Student</a></li>
-				<li><a href="schedule.html">Schedule</a></li>
-				<li><a href="contact.html">Contact</a></li>
-			</ul>
-		</nav>
+<header>
 
 
-		
-	</header>	
+        <h1>Rupiah Converter</h1>
 
-	<div id="texttengah">
-	<h1>Hactiv8 Development Program Batch 30</h1>
-		<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
-		tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam,
-		quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
-		consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse
-		cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-		proident, sunt in culpa qui officia deserunt mollit anim id est laborum.<p>
-	</div>	
-
-	
+</header>
 
 
-	<footer class="bg-orange">
-		<p>Copyright @dedysimamora 2019</p>
-	</footer>
+<div id="bgall">
+
+</div>
+
+<div class="clearfix">
+    <div class="box">
+            <div class ="imageframebox">
+                <input type="image" id="dollar" class="tombol" src="dollar.jpg" alt="dollar" >
+                <div class="overlay">
+                        <div class="text">Rupiah To USD</div>
+                </div>
+           </div>    
+    </div>
+    <div class="box">
+        <div class ="imageframebox">
+                <input type="image" id="dollar" class="tombol" src="euro.jpg" alt="dollar" >
+                <div class="overlay">
+                        <div class="text">Rupiah To Euro</div>
+                </div>
+        </div>    
+    </div>
+    <div class="box">
+        <div class ="imageframebox">
+                <input type="image" id="dollar" class="tombol" src="pundsterling.jpg" alt="dollar" >
+                <div class="overlay">
+                        <div class="text">Rupiah To Poundsterling</div>
+                </div>
+        </div>    
+    </div>
+    <div class="box">
+        <div class ="imageframebox">
+                <input type="image" id="dollar" class="tombol" src="yen.jpg" alt="dollar" >
+                <div class="overlay">
+                        <div class="text">Rupiah To Yen</div>
+                </div>
+        </div>    
+    </div>
+    
+</div>
 
 
-	
+<div class="form-popup" id="myForm">
+                <form action="/action_page.php" class="form-container">
+                <h2 id="judlconvert">Convert Rupiah To USD</h2>
+
+                
+                <input  type="number"   id="rp" >
+                <h1 id="hasildlr"></h1>
+                <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+        </form>
+ </div>
+
+ 
+
+
+
+      
+      
 
 
 
 
 
+<footer>
+        <p>Copyright @dedysimamora 2019</p>
+</footer>    
 
-
+<script src="script.js"></script>    
 </body>
 </html>
