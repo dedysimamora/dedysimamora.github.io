@@ -27,8 +27,7 @@
     margin: 0;
     padding: 0;
     display: none;
-    background-color: black;
-    background-size: cover;
+    background-color: rgb(104, 104, 104);
     z-index: 8;
 
     opacity: 0.1;
@@ -40,6 +39,7 @@ header {
     width: 100%;
     text-align: center;
     color: aliceblue;
+    z-index: 1;
     
 }
 
@@ -61,11 +61,7 @@ html{
     padding: 0;
 }
 
-table{
-    position: fixed;
-    width: 100%;
-    padding: 50px 0px 5px 100px;
-}
+
 
 footer{
     position: fixed;
@@ -102,7 +98,7 @@ footer{
   bottom: 100%;
   left: 0;
   right: 0;
-  background-color: rgb(92, 92, 92);
+  background-color: rgb(243, 151, 45);
   opacity: 0.6;
   overflow: hidden;
   width: 100%;
@@ -121,22 +117,24 @@ footer{
 .form-popup {
   display: none;
   position: fixed;
-  bottom: 200px;
-  right: 530px;
+  top: 50%;
+  left: 50%;
+  margin-top: -100px;
+  margin-left: -140px;
   border: 3px solid #f1f1f1;
   z-index: 9;
 }
 
 
 
-/* Add styles to the form container */
+
 .form-container {
   max-width: 300px;
   padding: 10px;
   background-color: white;
 }
 
-/* Full-width input fields */
+
 .form-container input[type=number] {
   width: 100%;
   padding: 15px;
@@ -145,13 +143,13 @@ footer{
   background: #f1f1f1;
 }
 
-/* When the inputs get focus, do something */
+
 .form-container input[type=number]:focus {
   background-color: #ddd;
   outline: none;
 }
 
-/* Set a style for the submit/login button */
+
 .form-container .btn {
   background-color: #4CAF50;
   color: white;
@@ -163,7 +161,7 @@ footer{
   opacity: 0.8;
 }
 
-/* Add a red background color to the cancel button */
+
 .form-container .cancel {
   background-color: red;
 } 
@@ -171,8 +169,10 @@ footer{
 #hasildlr {
   text-align: center; 
 }
-  
+
 header h1{
-  color: rgb(233, 160, 2);
-  text-shadow: 2px 2px 4px #ffffff;
+  color: rgb(255, 255, 255);
+  text-shadow: 3px 3px 4px #666666;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 40px;
 }
